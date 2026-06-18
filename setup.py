@@ -19,8 +19,8 @@ def get_requirements(file_path: str) -> List[str]:
 
 
 setup(
-    name='Heart_Disease_Prediction',
-    version='0.1',
+    name='House_Price_Prediction',
+    version='0.0.1',
     author='Abdullah Hashmi',
     author_email='theabdullahhashmi90@gmail.com',
     packages=find_packages(),
