@@ -6,10 +6,6 @@ __pycache__/
 # C extensions
 *.so
 
-# Ignore data files
-notebook/data/house_prices.csv
-notebook/data/df_clean.pkl
-
 # Distribution / packaging
 .Python
 build/
