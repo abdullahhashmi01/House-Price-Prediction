@@ -10,9 +10,6 @@ __pycache__/
 notebook/data/house_prices.csv
 notebook/data/df_clean.pkl
 
-# Or simply ignore the entire data directory if it's strictly managed by DVC
-notebook/data/
-
 # Distribution / packaging
 .Python
 build/
