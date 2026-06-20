@@ -9,6 +9,11 @@ __pycache__/
 notebook/data/house_prices.csv
 notebook/data/df_clean.pkl
 
+artifacts/train.csv
+artifacts/test.csv
+artifacts/raw.csv
+artifacts/data.csv
+
 # Distribution / packaging
 .Python
 build/
