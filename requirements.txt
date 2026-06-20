@@ -7,4 +7,5 @@ xgboost
 catboost
 lightgbm
 joblib
+streamlit
 -e .
