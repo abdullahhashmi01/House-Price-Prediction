@@ -46,7 +46,7 @@ def evaluate_models(X_train, y_train, X_test, y_test, models, param_grid):
             if params:
                     from sklearn.model_selection import RandomizedSearchCV
                     grid_search = RandomizedSearchCV(estimator=model, param_distributions=params,
-                                n_iter=10, cv=3, n_jobs=-1, random_state=42)
+                                cv=3, n_jobs=-1, random_state=42)
                     grid_search.fit(X_train, y_train)
                     best_model = grid_search.best_estimator_
                     logging.info(f"Best parameters for {model_name}: {grid_search.best_params_}")
