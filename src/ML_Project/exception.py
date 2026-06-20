@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.ML_Project.logger import logging
 
 
 def error_message_detail(error, error_detail: sys):
